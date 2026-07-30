@@ -17,6 +17,27 @@ By leveraging **LangGraph**, **LangChain**, and **Retrieval-Augmented Generation
   - Fully functional offline/demo mode if external API keys (Groq, VirusTotal, AbuseIPDB) are not provided.
 - **Structured Pydantic Outputs**: Guarantees type-safe generation of the final `SOCReport` (JSON and Markdown formats).
 
+## 🏗️ Technology Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python 3.11+ |
+| AI Framework | LangChain |
+| Agent Framework | LangGraph |
+| LLM | Groq (Llama 3.3 / Mixtral / Gemma) |
+| Vector Database | ChromaDB |
+| Embeddings | HuggingFace all-MiniLM-L6-v2 |
+| Validation | Pydantic |
+| Templates | Jinja2 |
+| Memory | LangGraph MemorySaver |
+| Threat Intelligence | VirusTotal API |
+| Reputation Service | AbuseIPDB API |
+| Knowledge Base | MITRE ATT&CK |
+| CVE Database | NVD |
+| Logging | Python Logging |
+| Environment | dotenv |
+| Serialization | JSON |
+
 ## 🛠️ Architecture
 
 ```
